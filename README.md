@@ -3,7 +3,7 @@
 > **AI-Powered Planning & Programmer Progress Tracker**
 > Sistem Agentic AI untuk membantu manajer memantau aktivitas developer dan menyusun rencana kerja proyek melalui satu antarmuka percakapan.
 
-**CrewOS Agent** adalah sistem **multi-agent berbasis AI** yang dirancang untuk membantu perusahaan pengembang web, aplikasi, dan produk digital dalam:
+**DevTeam Activity Monitor Agent** adalah sistem **multi-agent berbasis AI** yang dirancang untuk membantu perusahaan pengembang web, aplikasi, dan produk digital dalam:
 
 * Menganalisis aktivitas dan riwayat kontribusi programmer melalui GitHub.
 * Menyimpan dan mengelola profil kontribusi developer.
@@ -12,7 +12,7 @@
 * Menerapkan **Human-in-the-Loop (HITL)** sebelum rencana kerja disimpan ke database.
 
 > **Repository internal:** `multi-agent-commit-intelligence`
-> **Nama produk:** **CrewOS Agent**
+> **Nama produk:** **DevTeam Activity Monitor Agent**
 
 ---
 
@@ -20,7 +20,7 @@
 
 ### 🤖 1. Agentic Orchestration
 
-CrewOS Agent menggunakan satu **Agentic Orchestrator** sebagai pusat koordinasi.
+DevTeam Activity Monitor Agent menggunakan satu **Agentic Orchestrator** sebagai pusat koordinasi.
 
 Orchestrator menerima permintaan pengguna, memahami kebutuhan, kemudian menentukan agen spesialis yang sesuai.
 
@@ -105,7 +105,7 @@ Human Approval
 
 ### 🧑‍💼 4. Human-in-the-Loop
 
-CrewOS Agent tidak langsung menyimpan rencana yang dihasilkan AI.
+DevTeam Activity Monitor Agent tidak langsung menyimpan rencana yang dihasilkan AI.
 
 Sistem menggunakan mekanisme **Human-in-the-Loop (HITL)**:
 
@@ -132,7 +132,7 @@ Sistem memiliki beberapa mekanisme perlindungan di tingkat kode:
 
 # 🏗️ Arsitektur Sistem
 
-CrewOS Agent menggunakan pola **Hub-and-Spoke Architecture**.
+DevTeam Activity Monitor Agent menggunakan pola **Hub-and-Spoke Architecture**.
 
 ```text
                          ┌─────────────────────┐
@@ -297,7 +297,7 @@ llama-3.3-70b-versatile
 
 # 🧩 MCP dan Tools
 
-CrewOS Agent memiliki folder `mcp/` yang berisi tool untuk integrasi data.
+DevTeam Activity Monitor Agent memiliki folder `mcp/` yang berisi tool untuk integrasi data.
 
 ```text
 mcp/
@@ -451,7 +451,7 @@ Keterangan:
 
 # ▶️ Running the Application
 
-CrewOS Agent membutuhkan **tiga proses backend** yang berjalan secara independen.
+DevTeam Activity Monitor Agent membutuhkan **tiga proses backend** yang berjalan secara independen.
 
 Buka tiga terminal.
 
@@ -589,7 +589,7 @@ PostgreSQL
 
 # 🛡️ Security & Guardrails
 
-CrewOS Agent menerapkan:
+DevTeam Activity Monitor Agent menerapkan:
 
 * Input sanitization.
 * Plan text cleaning.
@@ -651,7 +651,7 @@ Belum tersedia integrasi dengan:
 
 ### 5. Frontend Branding
 
-Beberapa teks pada frontend masih menggunakan branding lama dan perlu disesuaikan sepenuhnya dengan identitas **CrewOS Agent**.
+Beberapa teks pada frontend masih menggunakan branding lama dan perlu disesuaikan sepenuhnya dengan identitas **DevTeam Activity Monitor Agent**.
 
 ---
 
@@ -684,7 +684,7 @@ Future Development
 
 Dokumentasi pendukung:
 
-* `CrewOS_Agent_Laporan_Proyek.docx`
+* `DevTeam Activity Monitor_Agent_Laporan_Proyek.docx`
 * Materi Presentasi (`.pptx`)
 * `arsitektur_tersemat.png`
 * `hitl_nyata.png`
@@ -717,7 +717,7 @@ Proyek ini dikembangkan untuk keperluan pembelajaran, pengembangan, dan implemen
 
 <div align="center">
 
-**CrewOS Agent**
+**DevTeam Activity Monitor Agent**
 
 *From Passive Project Monitoring to Intelligent Agentic Assistance.*
 
