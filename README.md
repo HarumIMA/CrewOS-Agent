@@ -1,4 +1,4 @@
-# CrewOS Agent
+# DevTeam Activity Monitor
 
 > **AI-Powered Planning & Programmer Progress Tracker**
 > Sistem Agentic AI untuk membantu manajer memantau aktivitas developer dan menyusun rencana kerja proyek melalui satu antarmuka percakapan.
